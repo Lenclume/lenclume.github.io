@@ -9,7 +9,7 @@ enableEmoji = true
 theme = "jane"
 
 hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
-paginate = 5              # Number of articles displayed on the homepage  # 首页每页显示的文章数
+paginate = 10              # Number of articles displayed on the homepage  # 首页每页显示的文章数
 rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
 disqusShortname = ""      # disqus_shortname
 googleAnalytics = ""      # UA-XXXXXXXX-X
@@ -17,11 +17,11 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
 # language support # en / zh-cn / other... translations present in i18n/
 defaultContentLanguage = "en"           # Default language to use
-[languages.en]
-  languageCode = "en"
-
-[languages.fr]
-  languageCode = "fr"
+[languages]
+  [languages.en]
+    languageCode = "en"
+  [languages.fr]
+    languageCode = "fr"
 
 [author]                  # essential                     # 必需
   name = "Yann Roberge"
@@ -51,11 +51,6 @@ defaultContentLanguage = "en"           # Default language to use
   weight = 40
   identifier = "categories"
   url = "/categories/"
-[[menu.main]]
-  name = "external-link"
-  weight = 50
-  url = "https://gohugo.io"
-
 
 [params]
   since = "2022"            # Site creation time          # 站点建立时间
@@ -63,7 +58,7 @@ defaultContentLanguage = "en"           # Default language to use
   rssFullContent = true     # if false, Rss feed instead of the summary
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Yann Roberge"        # default: the title value    # 默认值: 上面设置的title值
+  logoTitle = "Yann Roberge - FPGA stuff"        # default: the title value    # 默认值: 上面设置的title值
   keywords = ["FPGA", "Embedded","Digital"]
   description = "Hugo theme jane example site."
 
@@ -82,7 +77,7 @@ defaultContentLanguage = "en"           # Default language to use
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:your@email.com"
-    e-linkedin = "http://localhost:1313"
+    a-email = "mailto:yr.roberge@icloud.com"
+    e-linkedin = "https://www.linkedin.com/in/yannroberge/fr"
 #    g-github = "http://localhost:1313"
 #    t-youtube = "http://localhost:1313"
