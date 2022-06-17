@@ -2,11 +2,11 @@
 title: "Test2"
 date: 2022-06-12T16:19:43-04:00
 lastmod: 2022-06-12T16:19:43-04:00
-draft: true
+draft: false
 keywords: []
 description: ""
 tags: []
-categories: []
+categories: ["math", "asdf"]
 author: "Yann"
 
 # Pinned: chiffre > 1 | Not pinned: 0 | Les chiffres plus bas ont priorité
