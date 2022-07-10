@@ -2,7 +2,8 @@
 # If you want to see the full configuration, please check `full-config.toml` .
 # And see https://gohugo.io/getting-started/configuration/ .
 
-baseURL = "http://localhost:1313/"
+baseURL = "https://lenclume.github.io/"
+#baseURL = "http://localhost:1313/" # Pour débug
 title = "Yann Roberge - Blog"
 enableRobotsTXT = true
 enableEmoji = true
