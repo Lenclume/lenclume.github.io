@@ -1,0 +1,36 @@
+<div class="icon-links" style="padding-left: 40px;">
+  {{ partial "social_links.html" . }}
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Built with <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    {{- $current := now.Format "2006" }}
+    &copy;
+    {{ if ne .Site.Params.since $current }}
+      {{ .Site.Params.since }} -
+    {{ end }}
+    {{- $current }}
+
+    {{- if or .Site.Copyright .Site.Author.name -}}
+      <span class="author">
+        {{if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}
+        {{ else }}{{ .Site.Author.name | safeHTML }}
+        {{ end }}
+      </span>
+    {{- end -}}
+  </span>
+
+  {{ if .Site.Params.customFooter }}
+    <span>
+      {{ .Site.Params.customFooter | safeHTML }}
+    </span>
+  {{ end }}
+</div>
