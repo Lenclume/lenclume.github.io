@@ -2,5 +2,7 @@
 public/
 resources/
 .hugo_build.lock
-.swp
+*.swp
+*.map
+*.sass-cache/
 

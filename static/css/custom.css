@@ -1,25 +1,20 @@
-// ==============================
-// Logo
-// =============================
-
 .logo-wrapper {
   float: left;
-  padding-left: 15px;
-}
+  padding-left: 15px; }
+  .logo-wrapper .logo {
+    font-size: 36px;
+    font-family: Athelas, STHeiti, Microsoft Yahei, serif;
+    padding-left: 10px; }
 
 .logo-wrapper .logo-img {
   height: 50px;
   border-radius: 50%;
-  vertical-align: bottom
-}
-.logo-wrapper .logo {
-  font-size: $logo-font-size;
-  font-family: $logo-font-family;
-  padding-left: 10px;
-}
+  vertical-align: bottom; }
 
-@include max-screen() {
+/*@include max-screen() {
   .logo-wrapper {
     display: none;
   }
-}
+}*/
+
+/*# sourceMappingURL=custom.css.map */
