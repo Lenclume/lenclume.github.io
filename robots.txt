@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://lenclume.github.io/sitemap.xml
