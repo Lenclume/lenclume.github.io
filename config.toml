@@ -59,7 +59,7 @@ defaultContentLanguage = "en"           # Default language to use
   rssFullContent = true     # if false, Rss feed instead of the summary
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Yann Roberge - FPGA stuff"        # default: the title value    # 默认值: 上面设置的title值
+  logoTitle = "Yann Roberge"        # default: the title value    # 默认值: 上面设置的title值
   keywords = ["FPGA", "Embedded","Digital"]
   description = "Hugo theme jane example site."
 
