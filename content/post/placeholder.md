@@ -1,8 +1,8 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
-date: {{ .Date }}
-lastmod: {{ .Date }}
-draft: true
+title: "Placeholder"
+date: 2022-08-13T19:07:33-04:00
+lastmod: 2022-08-13T19:07:33-04:00
+draft: false
 keywords: []
 description: ""
 tags: []
@@ -23,4 +23,4 @@ reward: false
 mathjax: false
 ---
 
-<!--more-->
+
