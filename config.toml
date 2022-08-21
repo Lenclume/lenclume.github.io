@@ -78,7 +78,7 @@ defaultContentLanguage = "en"           # Default language to use
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:yr.roberge@icloud.com"
+    a-email = "mailto:yr.roberge [at] icloud [dot] com"
     e-linkedin = "https://www.linkedin.com/in/yannroberge/fr"
 #    g-github = "http://localhost:1313"
 #    t-youtube = "http://localhost:1313"
