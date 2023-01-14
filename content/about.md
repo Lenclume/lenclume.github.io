@@ -10,4 +10,4 @@ comment: false
 mathjax: false
 ---
 
-I am an Electrical Engineering student from Montréal, Québec, specializing in embedded systems. I use this site to showcase projects, and document solutions to problems that I have solved so that you don't have to.
+I am a comp-eng grad student from Montréal, QC. I plan on using this site to showcase projects, ramble, and document solutions to problems that I've solved so that you don't have to.
